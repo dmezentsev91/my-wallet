@@ -1,4 +1,4 @@
-package com.demo.my_wallet;
+package com.demo.user;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

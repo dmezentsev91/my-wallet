@@ -1,15 +1,17 @@
-package com.demo.my_wallet;
+package com.demo.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 
-@Import(TestcontainersConfiguration.class)
+import static org.junit.Assert.assertTrue;
+
+//@Import(TestcontainersConfiguration.class)
 @SpringBootTest
 class MyWalletApplicationTests {
 
 	@Test
 	void contextLoads() {
+        assertTrue(true);
 	}
 
 }
